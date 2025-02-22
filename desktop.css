@@ -130,10 +130,14 @@ height: 46px;
 top: 30px;
 left: 1135px;
 border-radius: 5px;
-background-color: rgba(220, 120, 11, 1);
-color: white;
-border: 0.5px solid  rgba(220, 120, 11, 1);
+background-color: white;
+color: rgba(220, 120, 11, 1);
+border: 0.5px solid  #dc780b;
 cursor: pointer;
+}
+.header-btn:hover{
+    color: white;
+    background-color: #dc780b;
 }
 .header-box{
     width: 555px;
@@ -176,10 +180,14 @@ height: 60px;
 top: 532px;
 left: 150px;
 border-radius: 5px;
-background-color: rgba(220, 120, 11, 1);
-color: white;
+background-color: white;
+color: rgba(220, 120, 11, 1);
 border: 0.5px solid  rgba(220, 120, 11, 1);
 cursor: pointer;
+}
+.header-box-button:hover{
+    background-color: rgba(220, 120, 11, 1);
+    color: white;
 }
 .header-box-list{
     display: flex;
@@ -339,11 +347,15 @@ color: rgba(21, 12, 1, 1);
 height: 42px;
 top: 1637.73px;
 left: 803px;
-background-color: rgba(220, 120, 11, 1);
-color: white;
+background-color: white;
+color: rgba(220, 120, 11, 1);
 margin-top: 20px;
 border: 0.5px solid rgba(220, 120, 11, 1);
 border-radius: 5px;
+}
+.content-btn:hover{
+    background-color: rgba(220, 120, 11, 1);
+    color: white;
 }
 .content-item{
     width: 488px;
@@ -503,11 +515,15 @@ margin-bottom: 10px;
 height: 34px;
 top: 2480px;
 left: 565px;
-background-color: rgba(220, 120, 11, 1);
-color: white;
+background-color: white ;
+color: rgba(220, 120, 11, 1);
 border: 0.5px solid rgba(220, 120, 11, 1);
 border-radius: 3px;
 margin-top: 15px;
+}
+.box-btn:hover{
+    background-color: rgba(220, 120, 11, 1);
+    color: white;
 }
 .widget-btn{
     width: 142px;
@@ -518,10 +534,14 @@ left: 649px;
 border-width: 1px;
 border-radius: 5px;
 color: rgba(220, 120, 11, 1);
-border: 0.05px solid rgb(210, 191, 170);
+border: 0.05px solid rgba(220, 120, 11, 1);
 background-color: white;
 margin-left: 500px;
 margin-top: 40px;
+}
+.widget-btn:hover{
+    background-color: rgba(220, 120, 11, 1);
+    color: white;
 }
 .wrapper{
     width: 1440px;
@@ -812,9 +832,15 @@ padding-left: 20px;
     width: 156px;
 height: 75px;
 border-radius: 10px;
-background-color: rgba(220, 120, 11, 1);
-color: white;
+background-color: white;
+color: rgba(220, 120, 11, 1);
 border: 0.05px solid rgba(220, 120, 11, 1);
+font-size: 16px;
+font-weight: bold;
+}
+.aside-btn:hover{
+    background-color: rgba(220, 120, 11, 1) ;
+    color: white;
 }
 .footer{
     background-color: rgba(37, 37, 37, 1);
@@ -843,6 +869,9 @@ letter-spacing: 0%;
 color: rgba(255, 255, 255, 1);
 margin-top: 17px;
 margin-bottom: 17px;
+}
+.footer-title:hover{
+    color: blue;
 }
 .footer-list{
     display: flex;

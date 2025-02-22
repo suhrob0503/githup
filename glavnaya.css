@@ -108,32 +108,25 @@ height: 24px;
     cursor: pointer;
 }
 .main-box-title1:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-title2:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-title3:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-title4:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-title5:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-title6:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-title7:hover{
-    background-color: #EF7C00;
-    color: white;
+    color: #EF7C00;
 }
 .main-box-list{
     display: flex;
@@ -173,10 +166,11 @@ height: 24px;
     border-left: 1px solid #adb0b8;
 }
 .head-title{
-    color:#EF7C00;
+    color:#919399;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
+    cursor: pointer;
 }
 .head-subtitle{
     color: #919399;
@@ -184,11 +178,18 @@ height: 24px;
     font-size: 13px;
     line-height: 20px;
     align-items: center;
+    cursor: pointer;
+}
+.head-title:hover{
+    color: #EF7C00;
+}
+.head-subtitle:hover{
+    color: #EF7C00;
 }
 .box{
     width: 1366px;
     height: 527px;
-    background-image: url(./bg1\ 1.png);
+    background-image: url(./glavnrasm/background.png);
     background-size: 1366px 527px;
     display: flex;
     justify-content: space-between;
@@ -234,11 +235,15 @@ height: 24px;
     padding-right:20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #EF7C00;
+    background-color: white;
     border: 0.5px solid #EF7C00;
-    color: white;
+    color: #EF7C00;
     cursor: pointer;
     margin-top: 20px;
+}
+.wrapper-btn:hover{
+    background-color: #EF7C00;
+    color: white;
 }
 .wrapper-box-img{
     width: 22.295082092285156px;
@@ -380,7 +385,7 @@ align-items: center;
 margin-left: 400px;
 }
 .page-item{
-    border: 0.05px solid #98a2ab;
+    border: 0.05px solid #EF7C00;
     width: 165px;
 height: 38px;
 padding-top: 10px;
@@ -430,6 +435,10 @@ margin-left: 589px;
 margin-top: 35px;
 margin-bottom: 40px;
 cursor: pointer;
+}
+.page-btn:hover{
+    background-color: #EF7C00;
+    color: white;
 }
 .aside{
     width: 1134px;
@@ -509,11 +518,15 @@ padding-right: 20px;
 padding-bottom: 10px;
 padding-left: 20px;
 border-radius: 4px;
-background-color: #EF7C00;
-color: white;
+background-color: white;
+color: #EF7C00;
 margin-left: 20px;
 border: 0.05px solid #EF7C00;
 cursor: pointer;
+}
+.aside-button:hover{
+    background-color: #EF7C00;
+    color: white;
 }
 .sidebar{
     width: 1135px;
@@ -630,6 +643,10 @@ margin-left: 490px;
 margin-top: 15px;
 cursor: pointer;
 }
+.sidebar-button:hover{
+    background-color: #EF7C00;
+    color: white;
+}
 .inner{
     width: 1134px;
 height: 548px;
@@ -710,6 +727,10 @@ margin-left: 505px;
 margin-top: 15px;
 cursor: pointer;
 }
+.inner-btn:hover{
+    background-color: #EF7C00;
+    color: white;
+}
 .footer-box{
     width: 1134px;
 margin-left: 116px;
@@ -776,6 +797,9 @@ line-height: 40px;
 letter-spacing: 0px;
 color: rgba(44, 45, 46, 1);
 cursor: pointer;
+}
+.widget-left-text:hover{
+    color: #EF7C00;
 }
 .widget-right-list{
     width: 436px;
